@@ -16,5 +16,5 @@ How-to for writing converters
 4. convert to binary
 5. print array
 
-Converts can also be used in unix-y way:
+Converters can also be used in unix-y way:
 `convert.py A | sed 's/0/ /g`
