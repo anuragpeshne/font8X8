@@ -18,4 +18,13 @@ How to write converters
 5. print array
 
 Converters can also be used in unix-y way:
-`convert.py A | sed 's/0/ /g`
+
+`$ convert.py A | sed 's/0/ /g`
+`  11
+ 1111
+11  11
+11  11
+111111
+11  11
+11  11
+        `
