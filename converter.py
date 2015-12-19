@@ -1,11 +1,12 @@
 #!/usr/bin/python
 import sys
+import os
 
 if len(sys.argv) < 2 or ord(sys.argv[1]) > 127:
     print 'usage: converter.py character'
     sys.exit(1)
 
-f = open('./ascii')
+f = open(os.path.dirname(__file__)+ '/ascii')
 charCode = ord(sys.argv[1])
 
 f.seek(charCode * ((4 * 8) + 8))
